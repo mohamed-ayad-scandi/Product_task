@@ -1,11 +1,10 @@
 <?php
-
 /**
  *
  * @category Scandiweb
  * @package Scandiweb_Test
  * @author Mohammed Ayad <mohamed.ayad@scandiweb.com>
- * @copyright Copyright (c) 2022 Scandiweb, Inc (https://scandiweb.com)
+ * @copyright Copyright (c) 2023 Scandiweb, Inc (https://scandiweb.com)
  * @license http://opensource.org/licenses/OSL-3.0 The Open Software License 3.0 (OSL-3.0)
  */
 
@@ -43,6 +42,7 @@ class CreateSimpleProduct implements DataPatchInterface
      * @var ProductInterfaceFactory
      */
     protected ProductInterfaceFactory $productInterfaceFactory;
+    
     /**
      * @var CategoryLinkManagementInterface
      */
